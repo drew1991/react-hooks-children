@@ -2,16 +2,16 @@ import React from "react";
 import Container from "./Container";
 
 function App() {
+  const exampleinfo =" This is an example!"
   return (
     <div className="App">
       <Container header="Example header" direction="vertical">
-        <div>This is an example!</div>
-        <div>This is an example!</div>
-        <div>This is an example!</div>
-        <div>This is an example!</div>
-        <div>This is an example!</div>
-        <div>This is an example!</div>
-        <div>This is an example!</div>
+        <div></div>
+        <div>{exampleinfo}</div>
+        <div>{exampleinfo}</div>
+        <div>{exampleinfo}</div>
+        <div>{exampleinfo}</div>
+        
       </Container>
       <Container header="Example header" textPosition="center">
         <img

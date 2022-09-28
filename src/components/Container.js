@@ -4,8 +4,8 @@ function Container({
   header,
   children,
   textPosition = "", // possible values: left, right, center
-  direction = "horizontal", // possible values: vertical, horizontal
-  contentPosition = "left", // possible values: left, right, center
+  direction = "", // possible values: vertical, horizontal
+  contentPosition = "", // possible values: left, right, center
 }) {
   return (
     <div className={`container ${textPosition}`}>
